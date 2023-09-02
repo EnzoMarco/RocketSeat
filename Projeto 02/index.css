@@ -1,0 +1,41 @@
+.caixa1{
+    text-align: center;
+    margin: 64px auto 64px;
+}
+.rodape{
+    text-align: center;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    line-height: normal;
+}
+span{
+    color: rgba(238, 36, 255, 1);
+}
+p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #828282;
+    line-height: 22px;
+}
+.flutuar{
+    color: #828282;
+}
+.palavras{
+    color: #3F3D56;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: #3F3D56;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 147%;
+    text-decoration: none;
+}
+a + a{
+    margin-left: 28px;
+}
+.ondas{
+    width: 100%;
+}
