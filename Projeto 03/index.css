@@ -1,0 +1,39 @@
+body{
+    color: #7D7987;
+    font-family: 'Inter', sans-serif;
+}
+.menu{
+    margin-right: 153px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    opacity: 0.5;
+}
+.azul{
+    color: #89C5CC;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-family: 'Mulish', sans-serif; 
+    font-size: 49px;
+    line-height: 56px;
+}
+.metade1{
+    width: 489px;
+    height: 332px;
+    font-size: 14px;
+    line-height: 28px;
+}
+button{
+    background-color: rgba(105, 185, 157, 1);
+    color: white;
+    width: 115px;
+    height: 56px;
+    border-radius: 4px;
+}
+.rodapé{
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
