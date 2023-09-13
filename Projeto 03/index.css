@@ -6,17 +6,31 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    width: 1005px;
+    height: 23px;
+    position: absolute;
+    left: 122px;
+    top: 65px;
 }
-.treineme{
+.logo{
     display: flex;
     align-items: center;
+    font-weight: 700;
 }
 .menu{
-    background-color: black;
+    width: 267px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    word-spacing: 20px;
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
     font-weight: 400px;
     opacity: 0.5;
+}
+.home{
+    font-weight: 700px;
+    color: black;
 }
 .azul{
     color: #89C5CC;
@@ -27,12 +41,23 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1008px;
+    height: 433.64px;
+    position: absolute;
+    left: 119px;
+    bottom: 128.36px;
 }
 .metade1{
     width: 417px;
     height: 434px;
 }
+.p{
+    width: 438px;
+    font-size: 14px;
+    line-height: 28px;
+}
 h1{
+    width: 489px;
     font-family: 'Mulish', sans-serif; 
     font-size: 49px;
     line-height: 56px;
@@ -41,19 +66,34 @@ h1{
     display: flex;
     width: 417px;
     height: 434px;
-    background-color: blanchedalmond;
 }
 button{
-    background-color: rgba(105, 185, 157, 1);
-    color: white;
-    width: 115px;
+    display: inline-flex;
     height: 56px;
+    padding: 14px 32px 15px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
     border-radius: 4px;
+    background-color: #69B99D;
+    color: white;
 }
 /*rodapé*/
 .rodapé{
+    color: #000;
+    text-align: center;
+    width: 592px;
+    height: 28px;
+    position: absolute;
+    left: 344px;
+    bottom: 30px;
     font-family:'Open Sans', sans-serif;
     font-size: 14px;
+    font-weight: 400;
     line-height: 28px;
 }
-
+a{
+    text-decoration: none;
+    color: #000;
+}
