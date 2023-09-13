@@ -2,8 +2,17 @@ body{
     color: #7D7987;
     font-family: 'Inter', sans-serif;
 }
+/*Cabeçalho*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.treineme{
+    display: flex;
+    align-items: center;
+}
 .menu{
-    margin-right: 153px;
+    background-color: black;
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
     font-weight: 400px;
@@ -13,16 +22,26 @@ body{
     color: #89C5CC;
     font-family: 'Inter', sans-serif;
 }
+/*main*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.metade1{
+    width: 417px;
+    height: 434px;
+}
 h1{
     font-family: 'Mulish', sans-serif; 
     font-size: 49px;
     line-height: 56px;
 }
-.metade1{
-    width: 489px;
-    height: 332px;
-    font-size: 14px;
-    line-height: 28px;
+.metade2{
+    display: flex;
+    width: 417px;
+    height: 434px;
+    background-color: blanchedalmond;
 }
 button{
     background-color: rgba(105, 185, 157, 1);
@@ -31,6 +50,7 @@ button{
     height: 56px;
     border-radius: 4px;
 }
+/*rodapé*/
 .rodapé{
     font-family:'Open Sans', sans-serif;
     font-size: 14px;
