@@ -11,6 +11,11 @@
     justify-content: space-around;
     background-color: rgba(167, 160, 67, 0.5);
 }
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(50, 146, 87, 0.5);
+}
 .a{
     display: flex;
     justify-content: center;
@@ -33,7 +38,7 @@
     height: 50px;
     border: 1px solid black;
 }
-.E{
+.D{
     display: flex;
     justify-content: right;
     align-items: flex-end;
@@ -41,7 +46,7 @@
     height: 50px;
     border: 1px solid black;
 }
-.F{
+.E{
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -49,12 +54,74 @@
     height: 50px;
     border: 1px solid black;
 }
-.G{
+.F{
     display: flex;
     justify-content: left;
     align-items: flex-end;
     width: 100px;
     height: 50px;
+    border: 1px solid black;
+}
+/*Grid*/
+.container3{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    border: 1px solid black;
+    background-color: rgba(252, 0, 0, 0.5);
+}
+.G{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+.H{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+.I{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+.container4{
+    display: grid;
+    height: 100px;
+    justify-content: space-around;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgba(247, 243, 5, 0.5);
+}
+.J{
+    display: grid;
+    grid-row: 1/3;
+    grid-column: 1/3;
+    border: 1px solid black;
+    background-color: ;
+}
+.K{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    border: 1px solid black;
+}
+.L{
+    display: grid;
+    grid-row: 4/6;
+    grid-column: 4/6;
     border: 1px solid black;
 }
 </style>
@@ -65,10 +132,20 @@
         <div class="b">B</div>
         <div class="c">C</div>
         </div>
-        <div class="container">
+        <div class="container2">
+            <div class="D">D</div>
             <div class="E">E</div>
             <div class="F">F</div>
+        </div>
+        <div class="container3">
             <div class="G">G</div>
+            <div class="H">H</div>
+            <div class="I">I</div>
+        </div>
+        <div class="container4">
+            <div class="J">J</div>
+            <div class="K">K</div>
+            <div class="L">L</div>
         </div>
     </main>  
 </body>
