@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Archivo:wght@700&display=swap" rel="folha de estilo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Crie e compartilhe seu evento.</h1>
+        <span class="azul">O primeiro passo, é preencher esse formulário de inscrição</span>
+    </header>
+    <section>
+        <form>
+            <h3>Infomações do Evento</h3>
+            <label for="titulo">Título do evento <span class="ex">(mínimo 8 caracteres)</span></label>
+            <input type="text" name="titulo">
+            <label for="link">Link do evento <span class="ex">(comece com https://)</span></label>
+            <input type="url" name="link">
+            <label for="tel">Whatsapp para contato <span class="ex">(somente números)</span></label>
+            <input type="tel"name="tel">
+            <label for="informacoes">Informações extras</label>
+            <label for="categoria">Categoria</label>
+            <select name="categoria">
+                <option value=""disabled selected>Tipo do Evento</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+            </select>
+        </form>
+        <form>
+            <h3>Privacidade</h3>
+            <label for="email">E-mail do administrador <span class="ex">(digite um e-mail válido)</span></label>
+            <input type="email">
+            <label for="senha">Senha de acesso para os participantes <span class="ex">(mínimo 8 caracteres)</span></label>
+            <input type="password">
+            <input type="checkbox">Evento Privado
+        </form>
+        <form>
+            <h3>Dia e hora</h3>
+            <label>Data</label>
+            <input type="date">
+            <label>Das</label>
+            <input type="datetime" placeholder="19:00">
+            <label>Até</label>
+            <input type="datetime" placeholder="20:00">
+            <button>Salvar evento</button>
+        </form>
+    </section>
+</body>
+</html>
